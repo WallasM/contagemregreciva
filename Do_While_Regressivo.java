@@ -8,8 +8,8 @@ public class Do_While_Regressivo {
         int i = N;
         do{
             System.out.println(i);
-            i++;
-        } while(i <= 100000000);
+            i--;
+        } while(i >= 0);
         sc.close(); 
     }
 }
